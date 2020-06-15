@@ -2,7 +2,8 @@
   SELECT id, first_name FROM johnbryceusers.users WHERE date_of_birth IN 
 	  (SELECT MAX(date_of_birth) FROM johnbryceusers.users WHERE date_of_birth < 
  		  (SELECT MAX(date_of_birth) FROM johnbryceusers.users));
-2. 
+<br>		  
+2. <br>
   SELECT COUNT(*) FROM johnbryceusers.users WHERE email LIKE '%edu';
 3.
   SELECT first_name,last_name from johnbryceusers.users WHERE date_of_birth='2000';
