@@ -5,11 +5,14 @@
 <br>		  
 2. <br>
   SELECT COUNT(*) FROM johnbryceusers.users WHERE email LIKE '%edu';
-3.
+<br>
+3. <br>
   SELECT first_name,last_name from johnbryceusers.users WHERE date_of_birth='2000';
-4. 
+<br>  
+4. <br>
   SELECT ROUND(AVG(date_of_birth)) FROM johnbryceusers.users WHERE phone LIKE '050%';
-5.
+<br>  
+5. <br>
   SELECT date_of_birth FROM johnbryceusers.users 
     GROUP BY date_of_birth 
     ORDER BY Count(id) 
